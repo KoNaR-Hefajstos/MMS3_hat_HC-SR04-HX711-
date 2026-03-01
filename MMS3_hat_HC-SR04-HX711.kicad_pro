@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MMS3_hat_templates.kicad_pro",
+    "filename": "MMS3_hat_HC-SR04-HX711.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -562,17 +562,35 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(D4-K)": [
-        "50V "
+      "+5V": [
+        "echo_net"
       ],
-      "Net-(J8-Pin_1)": [
-        "50V "
+      "/CH32V003/CH32V003.MISO": [
+        "echo_net"
       ],
-      "U_reg": [
-        "50V "
+      "/CH32V003/CH32V003.MOSI": [
+        "echo_net"
       ],
-      "Vin": [
-        "50V "
+      "/CH32V003/CH32V003.SCK": [
+        "echo_net"
+      ],
+      "/CH32V003/PC0": [
+        "echo_net"
+      ],
+      "/CH32V003/PC3": [
+        "echo_net"
+      ],
+      "/CH32V003/PC4": [
+        "echo_net"
+      ],
+      "/CH32V003/PD0": [
+        "echo_net"
+      ],
+      "/CH32V003/PD2": [
+        "echo_net"
+      ],
+      "GND": [
+        "echo_net"
       ]
     },
     "netclass_patterns": [
@@ -938,6 +956,42 @@
           "label": "Output Type",
           "name": "Output Type",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Normal Temperature Frequency Tolerance",
+          "name": "Normal Temperature Frequency Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency Stability",
+          "name": "Frequency Stability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency",
+          "name": "Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Crystal Type",
+          "name": "Crystal Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency Tolerance",
+          "name": "Frequency Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Load Capacitance",
+          "name": "Load Capacitance",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1001,16 +1055,32 @@
       "Bus_switch"
     ],
     [
-      "f11c3b61-ae6a-4858-9d37-bbf426f44fb0",
-      "Power Connector"
-    ],
-    [
       "56050d79-5900-47d6-893d-3da0e8bf5810",
       "ID EEPROM"
     ],
     [
-      "c6fe6645-c1eb-4317-9e6f-134a73c9fa05",
-      "Buck Regulator"
+      "4dee6d9e-7e5d-44ee-a8f3-ef0f10f1aa20",
+      "HC-SR04 #1"
+    ],
+    [
+      "36a5dc67-abca-4880-b294-8f1012f1f231",
+      "HC-SR04 #2"
+    ],
+    [
+      "4c60b27e-41d8-4061-970f-160637c8630c",
+      "CH32V003"
+    ],
+    [
+      "fe70969c-cfa4-41de-a1fa-4dcd7313ba2c",
+      "HX711"
+    ],
+    [
+      "a02f67e6-d7d4-4e3c-b803-84e8eeda7cdb",
+      "HC-SR04 #4"
+    ],
+    [
+      "79053507-b611-4f56-9e7a-15d775bf4004",
+      "HC-SR04 #3"
     ]
   ],
   "text_variables": {

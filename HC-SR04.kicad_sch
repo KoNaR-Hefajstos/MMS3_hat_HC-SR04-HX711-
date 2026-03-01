@@ -1223,15 +1223,15 @@
 		)
 		(uuid "fe05c35d-aa8b-47dc-85eb-5edf40ffe33b")
 	)
-	(label "Echo"
-		(at 99.06 60.96 180)
+	(label "Echo_5V"
+		(at 99.06 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "74686d25-ad49-4269-84ce-826c220bc5f5")
+		(uuid "335a6712-6a34-4395-8f60-21a6c6758af0")
 	)
 	(label "Trig"
 		(at 172.72 74.93 180)
@@ -1253,7 +1253,7 @@
 		)
 		(uuid "83b74a6a-d844-4000-82bd-e9f7ceb2ec3e")
 	)
-	(label "Echo"
+	(label "Echo_5V"
 		(at 104.14 125.73 0)
 		(effects
 			(font

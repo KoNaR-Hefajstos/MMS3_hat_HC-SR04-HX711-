@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|169700000|90300000|6b0804c7-085d-47cf-beef-573f98413b4c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|79000000|137000000|dd646722-d3e7-41f5-a7ea-ea9dbc824b15|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|80000000|136000000|f4e3fd31-f6f1-46e6-90f4-32237bfd297b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|85337849|89057177|245d250d-b957-41b8-9425-47da5c244020|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -187,7 +204,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.5,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +239,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -587,6 +611,18 @@
         "echo_net"
       ],
       "/CH32V003/PD2": [
+        "echo_net"
+      ],
+      "/HC-SR04 #1/Echo_5V": [
+        "echo_net"
+      ],
+      "/HC-SR04 #2/Echo_5V": [
+        "echo_net"
+      ],
+      "/HC-SR04 #3/Echo_5V": [
+        "echo_net"
+      ],
+      "/HC-SR04 #4/Echo_5V": [
         "echo_net"
       ],
       "GND": [

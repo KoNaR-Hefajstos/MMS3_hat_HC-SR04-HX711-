@@ -1317,7 +1317,7 @@
 			(fill
 				(type none)
 			)
-			(uuid c3b47e23-ca36-4e38-a9ce-3dac46da327f)
+			(uuid 9b436340-2731-4333-9195-fe63a6dcb5b0)
 		)
 	)
 	(netclass_flag ""
@@ -1362,7 +1362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2e482f-8fdd-4263-bc56-f5b1b2f6fb3c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0101"
 			(at 116.84 128.27 0)
 			(effects
 				(font
@@ -1413,11 +1413,11 @@
 		(instances
 			(project "MMS3_hat_templates"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/36a5dc67-abca-4880-b294-8f1012f1f231"
-					(reference "#PWR050")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/4dee6d9e-7e5d-44ee-a8f3-ef0f10f1aa20"
-					(reference "#PWR047")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/79053507-b611-4f56-9e7a-15d775bf4004"
@@ -1441,7 +1441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25dfda1d-228b-4d89-bba4-7e9516b63361")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0103"
 			(at 111.76 90.17 0)
 			(effects
 				(font
@@ -1491,11 +1491,11 @@
 		(instances
 			(project "MMS3_hat_templates"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/36a5dc67-abca-4880-b294-8f1012f1f231"
-					(reference "#PWR051")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/4dee6d9e-7e5d-44ee-a8f3-ef0f10f1aa20"
-					(reference "#PWR048")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/79053507-b611-4f56-9e7a-15d775bf4004"
@@ -1520,7 +1520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5da26588-ba73-484a-8f6d-8054a5abacb2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0102"
 			(at 107.95 120.65 0)
 			(effects
 				(font
@@ -1571,11 +1571,11 @@
 		(instances
 			(project "MMS3_hat_templates"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/36a5dc67-abca-4880-b294-8f1012f1f231"
-					(reference "#PWR052")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/4dee6d9e-7e5d-44ee-a8f3-ef0f10f1aa20"
-					(reference "#PWR049")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/79053507-b611-4f56-9e7a-15d775bf4004"

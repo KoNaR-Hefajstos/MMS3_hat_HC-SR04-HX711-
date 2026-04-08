@@ -19801,7 +19801,7 @@
 	(footprint "PCM_JLCPCB:Hole_Tooling_JLCPCB"
 		(layer "F.Cu")
 		(uuid "d8de27a3-1cc5-47c4-b24b-38de7b876cf4")
-		(at 85.337849 89.057177)
+		(at 86 91)
 		(property "Reference" "H9"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -19931,7 +19931,7 @@
 			)
 			(polygon
 				(pts
-					(xy 84.337849 88.057177) (xy 86.337849 88.057177) (xy 86.337849 90.057177) (xy 84.337849 90.057177)
+					(xy 85 90) (xy 87 90) (xy 87 92) (xy 85 92)
 				)
 			)
 		)
@@ -26089,16 +26089,199 @@
 		(layer "B.SilkS")
 		(uuid "f7abd25d-6115-4a19-a1fd-9084d1f6da6e")
 	)
-	(gr_rect
-		(start 78 88)
-		(end 178 138)
+	(gr_line
+		(start 178 88)
+		(end 178 96)
 		(stroke
-			(width 0.01)
+			(width 0.3)
 			(type solid)
 		)
-		(fill no)
+		(layer "Eco1.User")
+		(uuid "0d5e3474-a5a7-44ce-941c-50fae9146aa5")
+	)
+	(gr_line
+		(start 86 91)
+		(end 170 91)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "14379627-e12c-458a-8041-81ded6b14bad")
+	)
+	(gr_line
+		(start 78 96)
+		(end 81 96)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "4884511e-d420-495f-8605-482d8d523523")
+	)
+	(gr_line
+		(start 180 86)
+		(end 180 82)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "6a302e51-b6da-450c-a7f2-675b1df8e521")
+	)
+	(gr_line
+		(start 175 96)
+		(end 170 91)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "7a7526de-dad6-405d-85f1-63e1a1d89210")
+	)
+	(gr_line
+		(start 186 81)
+		(end 180 86)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "9fb0834b-2101-43cf-abec-72a04dc86f57")
+	)
+	(gr_line
+		(start 184 86)
+		(end 180 86)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "ad2fad2f-ce77-4998-9743-9ff28376a6bf")
+	)
+	(gr_line
+		(start 78 88)
+		(end 78 96)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "d63b147b-2fc4-46c1-b048-71f046c39eac")
+	)
+	(gr_line
+		(start 81 96)
+		(end 86 91)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "ea2eb4d0-421d-4c02-8213-5dd7c774ffae")
+	)
+	(gr_line
+		(start 178 96)
+		(end 175 96)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "ed6adb78-ddca-434c-a470-81e397f292d7")
+	)
+	(gr_line
+		(start 178 88)
+		(end 78 88)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f140fc85-65e0-488a-bb07-367cb84f4287")
+	)
+	(gr_arc
+		(start 174 88)
+		(mid 176.828427 89.171573)
+		(end 178 92)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
-		(uuid "05bd6017-511e-4def-973a-58fc7b0ca630")
+		(uuid "1dce6659-b0f0-4f16-859c-69d9222941a7")
+	)
+	(gr_arc
+		(start 178 134)
+		(mid 176.828427 136.828427)
+		(end 174 138)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1e3895a3-407e-4620-b277-26df109959d8")
+	)
+	(gr_line
+		(start 174 138)
+		(end 82 138)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2bd797ff-b511-4305-aa69-337c95788f55")
+	)
+	(gr_line
+		(start 178 92)
+		(end 178 134)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "517a95f7-37a3-449d-aef2-952824ed055e")
+	)
+	(gr_line
+		(start 82 88)
+		(end 174 88)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "530d0c69-81bc-4b1f-a5c7-0e1f15254a65")
+	)
+	(gr_arc
+		(start 82 138)
+		(mid 79.171573 136.828427)
+		(end 78 134)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c3422d8b-a281-4ae0-98f6-aa1cdf8ad6fc")
+	)
+	(gr_line
+		(start 78 134)
+		(end 78 92)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c3d6e849-7cea-4f6d-86e2-c88a2492d1fb")
+	)
+	(gr_arc
+		(start 78 92)
+		(mid 79.171573 89.171573)
+		(end 82 88)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eaf92406-fdc8-4987-80d5-f9d97051263f")
 	)
 	(gr_text "UART TX"
 		(at 124 105.5 0)
@@ -26300,6 +26483,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Version 1.0\nMade by\nWojciech Szafrański"
+		(at 91 97 0)
+		(layer "F.SilkS")
+		(uuid "f561dff5-b7ce-453d-8019-ec4933e7f05c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
@@ -27407,6 +27602,19 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Front and Back keepout\nzone for DIN rail mount"
+		(at 182 79 0)
+		(layer "Eco1.User")
+		(uuid "f60b0b70-5e33-47dc-af86-f8fb576affd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "All mounting holes\nAre M2.5"

@@ -24,7 +24,7 @@ H5,M2.5 mount,MountingHole_2.7mm_M2.5,103.0,-94.0,0.0,top
 H6,M2.5 mount,MountingHole_2.7mm_M2.5,153.0,-94.0,0.0,top
 H7,~,Hole_Tooling_JLCPCB,79.0,-137.0,0.0,top
 H8,~,Hole_Tooling_JLCPCB,169.7,-90.3,0.0,top
-H9,~,Hole_Tooling_JLCPCB,85.337849,-89.057177,0.0,top
+H9,~,Hole_Tooling_JLCPCB,86.0,-91.0,0.0,top
 J1,Chainbus in,PinHeader_2x16_P2.54mm_Vertical_SMD,127.99,-95.538272,270.0,bottom
 J10,Conn_01x04_Pin,JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal,134.825,-132.2425,0.0,top
 J11,Conn_01x04_Pin,JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal,121.175,-131.9125,0.0,top

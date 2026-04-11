@@ -28312,6 +28312,18 @@
 			)
 		)
 	)
+	(gr_text "Version 1.0\nWojciech Szafrański"
+		(at 92.5 98.25 0)
+		(layer "F.SilkS")
+		(uuid "a83a6677-4083-4d31-8f0c-2f1f92b036e8")
+		(effects
+			(font
+				(size 2 1.7)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "B"
 		(at 167.7 124.3 0)
 		(layer "F.SilkS")

@@ -14,8 +14,8 @@ M24C64,U2,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,C79988,1
 MMBT3906,Q3,Q_SOT-23,C7420354,1
 Red,"D3,D4",D_0603,C2286,2
 SN74CB3Q3245PWR,U1,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,C470961,1
-Debug_USART_TX,J4,PinSocket_1x01_P2.54mm_Vertical,,1
 Conn_01x04_Pin,J8,JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal,,1
+Debug_USART_TX,J4,PinSocket_1x01_P2.54mm_Vertical,,1
 Chainbus Out,J2,PinSocket_2x16_P2.54mm_Vertical_SMD,,1
 ~,H8,Hole_Tooling_JLCPCB,,1
 Conn_01x04_Pin,J3,PinHeader_1x04_P2.54mm_Vertical,,1

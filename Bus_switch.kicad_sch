@@ -2342,6 +2342,12 @@
 		(color 0 0 0 0)
 		(uuid "7e963dc8-3ca8-4878-b643-a5e20f921671")
 	)
+	(junction
+		(at 248.92 134.5952)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8b5b80-cba2-44ee-a9fe-1c040b535949")
+	)
 	(no_connect
 		(at 60.96 88.9)
 		(uuid "1926b6df-22f1-47c3-8271-e6ce50b2de16")
@@ -2778,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 130.81) (xy 248.92 134.62)
+			(xy 248.92 130.81) (xy 248.92 134.5952)
 		)
 		(stroke
 			(width 0)
@@ -2955,6 +2961,16 @@
 			(type default)
 		)
 		(uuid "8ad8b72a-5484-4643-bb2d-ad543bf33757")
+	)
+	(wire
+		(pts
+			(xy 248.92 134.5952) (xy 248.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b00f701-1fff-47e3-827d-20ee5b8e1d3d")
 	)
 	(bus
 		(pts
@@ -4076,8 +4092,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 248.92 134.62 0)
+		(lib_id "PCM_JLCPCB-Diodes:LED,0603,Red")
+		(at 248.92 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4086,9 +4102,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "912d9f45-0745-4495-a87d-4ebd9b04bcc8")
-		(property "Reference" "#PWR0107"
-			(at 248.92 140.97 0)
+		(uuid "8f3e4559-4829-4d7c-9c01-a3dfcb3f9799")
+		(property "Reference" "D3"
+			(at 254 125.8251 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 254 128.3652 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_0603"
+			(at 250.698 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,18 +4136,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 248.92 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 134.62 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
+			(at 248.92 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,8 +4147,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 248.92 134.62 0)
+		(property "Description" "-40°C~+85°C Red 0603 LED Indication - Discrete ROHS"
+			(at 248.92 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,8 +4158,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 134.62 0)
+		(property "LCSC" "C2286"
+			(at 248.92 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,14 +4168,116 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Stock" "5373336"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.009USD"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Optocouplers & LEDs & Infrared,Light Emitting Diodes (LED)"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "KT-0603R"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "058a2f13-3ee5-480a-94df-8360ceae751b")
 		)
 		(pin "1"
-			(uuid "d95dd920-b2ba-4b89-8703-e9af973083c4")
+			(uuid "64ad500a-3654-423e-af64-d895d59d9f00")
 		)
 		(instances
 			(project "MMS3_hat_HC-SR04-HX711"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR0107")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5784,8 +5914,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:LED,0603,Red")
-		(at 248.92 127 0)
+		(lib_id "power:+5V")
+		(at 248.92 134.5952 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5793,10 +5923,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbbf5070-b9cd-4b69-9205-34229c763c73")
-		(property "Reference" "D3"
-			(at 251.46 125.6346 0)
+		(uuid "fc4490bb-340f-4f77-b610-f730aeac1bec")
+		(property "Reference" "#PWR0114"
+			(at 248.92 130.7852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 251.714 138.4052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5806,19 +5946,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Red"
-			(at 251.46 128.1747 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_0603"
-			(at 247.142 127 90)
+		(property "Footprint" ""
+			(at 248.92 134.5952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5828,8 +5957,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
-			(at 248.92 127 0)
+		(property "Datasheet" ""
+			(at 248.92 134.5952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5839,8 +5968,8 @@
 				)
 			)
 		)
-		(property "Description" "-40°C~+85°C Red 0603 LED Indication - Discrete ROHS"
-			(at 248.92 127 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 248.92 134.5952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5849,127 +5978,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C2286"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "5373336"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.009USD"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Optocouplers & LEDs & Infrared,Light Emitting Diodes (LED)"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "KT-0603R"
-			(at 248.92 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8cfdf41c-40c3-46d8-913a-b3dd2a98ecdf")
 		)
 		(pin "1"
-			(uuid "352184cd-7a04-4eb6-88da-411e8a65a4be")
+			(uuid "837a02ae-19eb-4d21-ab20-25a419db7b8e")
 		)
 		(instances
 			(project "MMS3_hat_HC-SR04-HX711"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "D3")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
